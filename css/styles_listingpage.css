@@ -1,0 +1,220 @@
+#listingsearchbar{
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+
+.btnApply {
+  font-size: 20px;
+	padding: 8px;
+	background-color:#B00303;
+	border: 0;
+	color: #FFF;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+#map {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 50%;
+  height: 300px;
+  background-color: grey;
+  float: right;
+  margin-right: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+ }
+
+ #agentbox{
+   margin-top: 10px;
+   margin-bottom: 50px;
+   margin-left: 10px;
+   float: left;
+   width: 42.5%;
+   height: 300px;
+   border: 1px solid black;
+   border-radius: 5px;
+   background: #efefef;
+ }
+
+ #linkbar{
+   display: block;
+   margin-top: 10px;
+   padding-left: 30px;
+   margin-left: 20vw;
+   font-size: 12px;
+ }
+
+#propbox{
+  display: inline-block;
+  width: 57.5%;
+  padding: 10px;
+  float: left;
+  border-radius: 5px;
+}
+
+#propertyImage{
+  margin-top: 10px;
+  width: 60%;
+  float: right;
+  margin-right: 5%;
+  height: 303px;
+  background-color: gray;
+  padding-bottom: 80px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-image: url("images/Rentr_logo_color.png");
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size:100%;
+}
+
+#propImg{
+
+}
+
+#propertyDetails{
+
+}
+
+#listbtn{
+
+}
+
+#appbtn{
+  display: inline-block;
+  float: right;
+  margin-right: 70px;
+}
+
+#propid{
+
+}
+
+#propertyaddress{
+
+}
+
+#pricerow{
+  height: 30px;
+}
+
+#titlerow{
+  border-top: solid 1px #efefef;
+}
+
+#addressrow{
+  width: 35%;
+  padding: 10px 10px 10px 10px;
+  border-top: solid 1px #efefef;
+}
+
+#daterow{
+  width: 35%;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  border-top: solid 1px #efefef;
+}
+
+#propDetailsRow{
+  width: 35%;
+  padding: 10px 10px 10px 10px;
+  border-top: solid 1px #efefef;
+}
+
+#listtitle{
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 10px 10px 15px;
+  display: inline-block;
+}
+
+#listid{
+  float: right;
+  display: inline-block;
+  font-size: 14px;
+  padding: 15px 60px 10px 0;
+}
+
+#listprice{
+  padding: 10px 10px 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  display:inline-block;
+  float: left;
+}
+
+#buildtype{
+  padding: 2px 0px 2px 5px;
+}
+
+#listdate{
+  padding: 2px 0px 2px 5px;
+}
+
+ #beds{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #baths{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #petsok{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #smoking{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #furnished{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #parking{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #propaddr{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #propsub{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #proppost{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #propcity{
+   padding: 2px 0px 2px 5px;
+ }
+
+ #listdesc{
+   border-top: solid 1px #efefef;
+   width: 92.5%;
+   min-width: 50%;
+   margin-top: 10px;
+   padding: 10px 10px 10px 15px;
+   border-radius: 5px;
+ }
+
+ #agentbox{
+
+ }
+
+#listrating{
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+#listshowing{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
