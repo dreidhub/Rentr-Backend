@@ -1,0 +1,265 @@
+#listinglink{
+  color: black;
+}
+#listinglink:visited{
+  text-decoration: none;
+  color: purple;
+}
+#listinglink:hover{
+  text-decoration:underline;
+  color: #a80b0b;
+}
+#listinglink:focus{
+  text-decoration: none;
+  color: black;
+}
+#listinglink:hover, #listinglink:active{
+  text-decoration: none;
+  color: black;
+}
+
+.property-table{
+  margin-left: -15px;
+  max-width: 100%;
+  border-spacing: 0px;
+  border-style: none;
+  border-collapse: collapse;
+}
+
+.property-table td{
+}
+
+.property-table tr{
+}
+
+#proplistingSmall{
+  width: 100%;
+}
+
+#propbox{
+  align-self: center;
+  width: 250px;
+  height: 275px;
+  margin: 5px;
+  padding: 0;
+  border: 1px solid #a80b0b;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: white;
+  position:relative;
+}
+
+#propertyImage{
+  float:left;
+  position: absolute;
+  width: 250px;
+  height: 150px;
+  border-radius: 3px;
+  background-image: url("images/Rentr_logo_color.png");
+  background-repeat: no-repeat;
+  background-position: center;
+	background-size:100%;
+}
+
+#propImg{
+  background-image: url("images/Rentr_logo_color.png");
+  background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#propertyDetails{
+  float:left;
+  display: block;
+  bottom: 0;
+  position: absolute;
+  width: 250px;
+  height: 120px;
+  margin-bottom: 5px;
+}
+
+#propid{
+  font-size: 10px;
+  float:left;
+  top: 0;
+  padding-left: 5px;
+}
+
+#propertyaddress{
+  display: block;
+  float: left;
+  padding-left: 5px;
+  width:250px;
+}
+
+#titlepricerow{
+  display: block;
+  width: 250px;
+  height: 32px;
+  background-color: #f7faff;
+}
+
+#addressrow{
+  display: block;
+  width: 250px;
+  height: 24px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: white;
+}
+
+#daterow{
+  display: block;
+  width: 250px;
+  height: 20px;
+  background-color: #f7faff;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#listtitle{
+  display: inline-block;
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 5px;
+  border-radius: 4px;
+}
+
+#listprice{
+  padding: 7px 5px 5px 5px;
+  align-content: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  float: right;
+}
+
+#buildtype{
+  font-size: 14px;
+  float:right;
+  padding-right: 5px;
+  padding-top: 2px;
+  height: 24px;
+}
+
+#listdate{
+  display: block;
+  font-size: 14px;
+  padding: 2px 0px 2px 7px;
+  float: left;
+}
+
+#propDetailsRow{
+  float:left;
+  display: block;
+  width: 246px;
+  height: 31px;
+  padding: 0px 2px 2px 2px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+ #beds{
+   font-size: 14px;
+   display: inline-block;
+   float: left;
+   padding: 4px 10px 2px 10px;
+ }
+
+ #baths{
+   font-size: 14px;
+   display: inline-block;
+   float: left;
+   padding: 4px 5px 2px 5px;
+ }
+
+ #petsok{
+   font-size: 14px;
+   display: inline-block;
+   float: left;
+   padding: 4px 5px 2px 5px;
+ }
+
+ #smoking{
+   font-size: 14px;
+   display: inline-block;
+   float: left;
+   padding: 4px 5px 2px 5px;
+ }
+
+ #pet-icon{
+ 	padding-left: 2px;
+ 	padding-right: 2px;
+ 	width: 24px;
+ }
+
+ #bed-icon{
+ 	padding-left: 2px;
+ 	padding-right: 6px;
+ 	width: 24px;
+ }
+
+ #bath-icon{
+ 	padding-left: 2px;
+ 	padding-right: 5px;
+ 	width: 24px;
+ }
+
+ #smoke-icon{
+   padding-left: 2px;
+   width: 24px;
+   height: 20px;
+ }
+
+ #furnished{
+   font-size: 14px;
+   display: inline-block;
+   float: left;
+   padding: 2px 5px 2px 5px;
+   width: 110px;
+ }
+
+ #listparking{
+   font-size: 14px;
+   display: inline-block;
+   float: right;
+   padding: 2px 5px 2px 5px;
+   width: 110px;
+ }
+
+ #propaddr{
+   font-size: 14px;
+   display: inline-block;
+   float: left;
+ }
+
+ #propsub{
+   font-size: 16px;
+   display: inline-block;
+   float: left;
+   padding: 2px 0px 2px 0px;
+ }
+
+ #proppost{
+   font-size: 14px;
+   display: inline-block;
+ }
+
+ #propcity{
+   font-size: 16px;
+   display: inline-block;
+   float: left;
+   padding: 2px;
+ }
+
+ #listdesc{
+   display: block;
+   float: left;
+   width: 240px;
+   background-color: #f7faff;
+   font-size: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+ }

@@ -1,0 +1,449 @@
+<style>
+
+html{
+	padding:0;
+	margin:0;
+	position: relative;
+  width: 100%;
+  height: 100%;
+	font-family:Arial;
+	max-width: 100%;
+  overflow-x: hidden;
+}
+
+body{
+	width:100%;
+	padding:0;
+	margin:0;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	font-family:Arial;
+	font-size:18px;
+	background-color:white;
+}
+
+#footer{
+	position:fixed;
+	background-color: white;
+	bottom:0%;
+	height:40px;
+	width:100vw;
+	z-index: 2;
+	border-top: solid 1px black;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+	/*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+}
+
+h3{
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.hidden{
+	display: none;
+}
+
+#card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+	padding: 10px;
+	background:white;
+	width:90vw;
+	margin:10px;
+}
+
+#homepage{
+	padding-left: 20vw;
+	width:75%;
+}
+
+#profile{
+	padding-left: 25px;
+	width: 940px;
+  margin-left: 20vw;
+	position: absolute;
+	white-space: nowrap;
+}
+
+#time{
+	color: white;
+}
+
+#listings{
+	padding-left: 2.5vw;
+	margin-top: 10px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+#tenantapplications{
+	padding-left: 2.5vw;
+	margin-top: 10px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+#landlordapplications{
+	padding-left: 2.5vw;
+	margin-top: 10px;
+	width: 100%;
+	margin-bottom: 5vh;
+	white-space: nowrap;
+}
+
+#banner{
+  height: 12vh;
+	background-image: url("images/Biddr_banner_bg.png");
+  background-color: #B00303;
+	background-repeat: no-repeat;
+	background-size:100%;
+}
+
+#logo{
+	float: left;
+  padding-left: 0.5vw;
+	margin-left: 20vw;
+  height:12vh;
+}
+
+#listing-expand{
+}
+
+#listingstxt{
+	font-size: 20px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-bottom: 0px;
+	display: inline-block;
+}
+
+#toggle-listings{
+	display: inline-block;
+	float: right;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 12px;
+	background-image: url("images/plus_btn.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#toggle-listings:active{
+	border: none;
+}
+
+.titleblock{
+	padding-top: 10px;
+}
+
+.search-table{
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 9vw;
+	margin-bottom: 5vh;
+	float: left;
+	width: 200px;
+	font-size: 14px;
+	border: solid 2px black;
+	border-radius: 5px;
+	background-color: #f7f9fc;
+}
+
+.border{
+	float: left;
+	padding-left: 1vw;
+	padding-right: 2vw;
+	border-width: 2px;
+	border-radius: 5px;
+	border-color: gray;
+	border-style: solid;
+}
+
+.copyright{
+	float:left;
+	padding-left: 2vw;
+	margin-top: 10px;
+}
+
+.contact{
+	float: right;
+	padding-right: 2vw;
+	margin-top: 10px;
+}
+
+.nzowned{
+	display: inline-block;
+	text-align: center;
+	margin-left: 25vw;
+	margin-top: 10px;
+}
+
+#loginform{
+	float:left;
+	padding-left: 2.5vw;
+}
+
+@font-face {
+	font-family: Tw Cen MT Condensed;
+	src: local("Tw Cen MT Condensed"),  url(fonts/TwCenMTCondensed.ttf)
+	}
+
+.hover:hover {
+	background-color:#7e0202;
+}
+
+#rightnav{
+	float:right;
+	padding-right: 2vw;
+}
+
+#nav {
+  background-color:#B00303;
+	border: 1px solid #7e0202;
+  background-repeat:repeat-x;
+  z-index:2;
+}
+
+#nav-wrapper{
+	width:60%;
+	margin:0 auto;
+	text-align:left;
+	z-index:2;
+}
+
+
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:relative;
+	z-index:2;
+}
+
+#nav ul li{
+	display: inline-block;
+	z-index:2;
+}
+
+#nav ul li:hover{
+	background-color:#FFFFFF;
+	z-index:2;
+
+}
+
+#nav ul li a,visited{
+	color:#FFFFFF;
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	z-index:2;
+}
+
+#nav ul li a:hover{
+	color:#ccc;
+	text-decoration:none;
+	z-index:2;
+}
+
+#nav ul li:hover ul{
+	display:block;
+	z-index:2;
+}
+
+#nav ul li img{
+	vertical-align:middle;
+	padding-left:5px;
+	width:22px;
+	height:20px;
+	z-index:2;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	background-color:#333;
+	border:5px solid #222;
+	border-top:0;
+	margin-left:-5px;
+	min-width:150px;
+	z-index:2;
+}
+
+#nav ul ul li{
+	display:block;
+	z-index:2;
+}
+
+#nav ul ul li a,visited{
+	color:#ccc;
+	z-index:2;
+}
+
+#nav ul ul li a:hover{
+	color:#099;
+	z-index:2;
+}
+
+.property-table{
+	float: left;
+	padding-top: 0px;
+}
+
+#propbox{
+  width: 100%;
+  height: 100px;
+	font-size: 14px;
+	background-color: #efefef;
+	border-radius: 5px;
+}
+
+#propertyImage{
+	display: inline-block;
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+
+#propImg{
+	margin: 5px;
+	height: 90px;
+	width: 140px;
+	background-image: url("images/Rentr_logo_color.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 4px;
+}
+
+#propDetails{
+	float: left;
+	width: 700px;
+	margin-top: 5px;
+}
+
+#titlerow{
+	display: inline-block;
+	padding-bottom: 2px;
+}
+
+#listtitle{
+	display: inline-block;
+	font-size: 16px;
+}
+
+#listid{
+	float: right;
+	padding-right: 10px;
+	display: inline-block;
+	font-size: 12px;
+}
+
+#pricerow{
+	padding-bottom: 1px;
+}
+
+#daterow{
+}
+
+#addressrow{
+	padding-bottom: 1px;
+}
+
+#listdate{
+	display: inline-block;
+}
+
+#buildtype{
+	display: inline-block;
+}
+
+#propDetailsRow{
+	display: inline-block;
+}
+
+#beds{
+	display: inline-block;
+}
+
+#baths{
+	display: inline-block;
+}
+
+#furnished{
+	display: inline-block;
+}
+
+#parking{
+	display: inline-block;
+}
+
+#petsok{
+	display: inline-block;
+}
+
+#smoking{
+	display: inline-block;
+}
+
+#bath-icon{
+	padding-left: 2px;
+	padding-right: 5px;
+	width: 22px;
+}
+
+#bed-icon{
+	padding-left: 2px;
+	padding-right: 5px;
+	width: 22px;
+}
+
+#pet-icon{
+	padding-left: 2px;
+	padding-right: 5px;
+	width: 18px;
+}
+
+#smoke-icon{
+	padding-left: 2px;
+	padding-right: 5px;
+	width: 18px;
+}
+
+#parking-icon{
+	padding-left: 2px;
+	padding-right: 5px;
+	width: 20px;
+}
+
+#listinglink{
+  color: black;
+}
+#listinglink:visited{
+  text-decoration: none;
+  color: purple;
+}
+#listinglink:hover{
+  text-decoration:underline;
+  color: #a80b0b;
+}
+#listinglink:focus{
+  text-decoration: none;
+  color: black;
+}
+#listinglink:hover, #listinglink:active{
+  text-decoration: none;
+  color: black;
+}
+
+
+</style>
